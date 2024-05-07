@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F3F7;
+    color: #333333;
+}
+
+nav {
+    background-color: #E6E9F0;
+    color: #444444;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo img {
+    max-height: 50px;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #66CCCC;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #444444;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #66CCCC;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+form input[type="url"],
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #66CCCC;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #338899;
+}
+
+.btndel {
+    background: #338899;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}

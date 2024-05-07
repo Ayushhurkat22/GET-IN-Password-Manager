@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 24 24"
+  width="24"
+  height="24"
+  class="copy-btn"
+  id="copyBtn"
+>
+  <path
+    fill="currentColor"
+    d="M9,16H5V12H9Zm0-8H5V4H9Zm6,10H11V12h4ZM7,2A1,1,0,0,0,6,3V17a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM16,4H14V2H10V4H8V6H16Z"
+  ></path>
+</svg>

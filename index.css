@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #112D4E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.site-name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.register-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.register {
+    background-color: #F9F7F7;
+    border: 10px solid #DBE2EF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3F72AF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.credentials {
+    margin-top: 20px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #3F72AF;
+}
+
+.btn {
+    padding: 12px 20px; 
+    width: auto; 
+    background-color: #3F72AF; 
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2C5A9D;
+    border: 1px solid #112D4E;
+}

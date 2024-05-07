@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetIn</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="pattern-lock-ezgif.com-gif-maker.gif" alt="GetIn Logo">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Passwords</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Get IN!</h1>
+        <h2>Your Personal Password Manager</h2>
+        <h2>Your Passwords</h2>
+        <p class="alert">Your Credentials Have Been Copied!</p>
+        <table>
+            <tr>
+              <th>Website URL</th>
+              <th>UserName</th>
+              <th>Password</th>
+              <th>Date</th>
+              <th>User Logged In</th>
+              <th>Delete</th>
+            </tr>
+            <tr>
+              <td><a href="http://gmail.com">gmail.com</a></td>
+              <td>Ayush Hurkat <img onclick="copyText('Ayush Hurkat')" src="./copybtn.svg" alt="Copy Button" width="18" height="18"></td>
+              <td>Password <img onclick="copyText('Password')" src="./copybtn.svg" alt="Copy Button" width="18" height="18"></td>
+              <td>02/05/2024</td>
+              <td>User123</td>
+              <td><button class="btndel" onclick="deletePasswords('http://gmail.com')">Delete</button></td>
+            </tr>
+          </table>
+        <h2>Add Password</h2>
+        <form>
+            <label for="url">Website Url:</label>
+            <input type="url" id="url" placeholder="Enter website url"><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" required autocomplete="username" placeholder="Enter website username"><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required placeholder="Enter password. Make it strong!"><br>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required placeholder="Confirm password"><br>
+            
+            <label for="dateofcreation">Date Of Creation</label>
+            <input type="date" id="dateofcreation" required>
+            <br>
+            <input type="submit" value="Submit" class="btn">
+          </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
